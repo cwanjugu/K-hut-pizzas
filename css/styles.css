@@ -28,7 +28,7 @@ html{
 
     .image1{
         text-align: center;
-    }
+    } 
 
 @media only screen and (max-width:600px) {
     
@@ -38,3 +38,10 @@ html{
     }
 }
  
+.img{
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    text-align: center;
+    
+}
