@@ -23,8 +23,18 @@ html{
     background-color: teal;
     color: black;
     }
+    
 
 
     .image1{
         text-align: center;
     }
+
+@media only screen and (max-width:600px) {
+    
+    body{
+        overflow-x: hidden;
+        background-color: cornsilk;
+    }
+}
+ 
