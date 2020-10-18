@@ -7,6 +7,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
+
 </head>
 
 <body>
@@ -37,23 +38,277 @@
 
       <div class="services">
         <h2><b>SERVICES</b></h2>
-
       </div>
 
-      <footer>
-        <div class="footer">
-          <p>
-            <img src="Images/phone call.jpg" style=width:50px>
-            <height:20px +254711583937>
-              <img src="Images/twitter.png" style=width:50px>
-              <height:50px @cwanjugu>
-                <img src="Images/Facebook.jpeg" style=width:50px>
-                <height:20px Karlo Wanj>
-          </p>
-          <p>khutpizza@gmail.com : All Rights Reserved</p>
+      <div class="types p-3">
+        <h4 class="text-center"><strong>Our Varieties</strong></h4>
+        <div class="container">
+          <p class="text-center">PizzaByte got you covered by providing you different types of Pizza you need.
+            Prices differ according to sizes,toppings, type and crust.</p>
+          <p class="text-center">Here is a summary of our prices</p>
+          <div class="table-responsive" id="menu">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col" class="h3">BBQ</th>
+                  <th scope="col" class="h3">Periperi</th>
+                  <th scope="col" class="h3">Hawaaian</th>
+                  <th scope="col" class="h3">Margherita</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row" class="h3" id="tds">Toppings</th>
+                  <td class="f-12">Mushroom - 100<br>
+                    Peperoni-120<br>
+                    Sausage-80</td>
+                  <td>Mushroom - 100<br>
+                    Peperoni-120<br>
+                    Sausage-80
+                  <td>Mushroom - 100<br>
+                    Peperoni-120<br>
+                    Sausage-80</td>
+                  <td>Mushroom - 100<br>
+                    Peperoni-120<br>
+                    Sausage-80</td>
+                </tr>
+                <tr>
+                  <th scope="row" class="h3">Sizes</th>
+                  <td>Large - 1200<br>
+                    Medium-1100<br>
+                    Small-800</td>
+                  <td>Large - 1500<br>
+                    Medium-1300<br>
+                    Small-900</td>
+                  <td>Large - 2000<br>
+                    Medium-1500<br>
+                    Small-1300</td>
+                  <td>Large - 1000<br>
+                    Medium-800<br>
+                    Small-500</td>
+                </tr>
+                <tr>
+                  <th scope="row" class="h3">Crust</th>
+                  <td>Thick-150</br>
+                    Thin-100</td>
+                  <td>Thick-150</br>
+                    Thin-100</td>
+                  <td>Thick-150</br>
+                    Thin-100</td>
+                  <td>Thick-150</br>
+                    Thin-100</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
         </div>
-      </footer>
-      <script src="script.js"></script>
+        <div class="container" id="order">
+          <div class="row">
+            <div class="col-sm mt-3">
+              <div class="card">
+                <div class="view overlay">
+                  <img class="card-img-top" src="images/pizza7.jpg" alt="Card image cap">
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title">Chicken BBQ</h4>
+                    <p class="card-text">Grilled chicken breast, BBQ sauce, fresh onions, cheeses made
+                      with 100% real mozzarella, provolone, and cheddar on a cheesy cheddar crust.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="card mt-3">
+                <div class="view overlay">
+                  <img class="card-img-top" src="images/pizza3.jpg" alt="Card image cap">
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title">Periperi Chicken</h3>
+                  <p class="card-text">Sliced chicken breast, pizza sauce, Mozzarella cheese, cherry
+                    tomatoes, chicken,brocolli, baby spinach leaves, red onion, peri peri sauce</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="card mt-3">
+                <div class="view overlay">
+                  <img class="card-img-top" src="images/pizza1.jpg" alt="Card image cap">
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title">Hawaaian</h3>
+                  <p class="card-text">Pizza topped with pineapple, ham, tomato sauce as well as smoked
+                    bacon, roasted red peppers, mozzarella, and provolone cheese.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm">
+              <div class="card mt-3">
+                <div class="view overlay">
+                  <img class="card-img-top" src="images/pizza5.jpg" alt="Card image cap">
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title">Margherita</h3>
+                  <p class="card-text">Pizza Margherita is a typical Neapolitan pizza, made with San
+                    Marzano tomatoes, mozzarella cheese, fresh basil, salt and extra-virgin olive oil
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="text-center" id="order">
+            <a href="" class="btn btn-primary btn-rounded my-3" data-toggle="modal"
+              data-target="#modalContactForm">Place your Order</a>
+          </div>
+
+        </div>
+      </div>
+      <hr>
+      <div class="container" id="table1">
+        <div class="table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col" class="h3">Type</th>
+                <th scope="col" class="h3">Size</th>
+                <th scope="col" class="h3">Topping</th>
+                <th scope="col" class="h3">Crust</th>
+                <th scope="col" class="h3">Total</th>
+                <th scope="col" class="h3">Subtotal</th>
+                <th scope="col" class="h3">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+            <tbody id="table">
+
+            </tbody>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="text-center">
+          <button class="btn btn-primary" id="checkout">Checkout</button>
+        </div>
+
+        <div class="show">
+          <p>checkout</p>
+          <div class="checkoutShow">
+
+          </div>
+        </div>
+        <div id="bill">
+          <div class="container pr-5">
+            <h3>Your Total Order is </h3>
+            <p><span id="billAmount"></span></p>
+
+          </div>
+        </div>
+        <div id="homeDeliver">
+          <div class="row">
+            <div class="col-sm">
+              <h3>Your Delivery Fee is 200Ksh. </h3>
+              <p><span id="deliveryAmount"></span></p>
+            </div>
+            <div class="col-sm">
+              <div class="text-center">
+                <button class="btn btn-primary" id="home-continue">Continue</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="deliverToLocation">
+          <div class="container pr-5">
+            <p><span id="totalBill"></span></p>
+            <p>Happy Ordering!!</p>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="order">
+        <div class="">
+          <div class="modal fade " id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <!--Contettnt-->
+              <div class="modal-content">
+
+                <!--Header-->
+                <div class="modal-header light-blue darken-3 white-text">
+                  <h5 class="title"><i class="fas fa-pencil-alt"></i> Pizza Byte</h5>
+                  <button type="button" class="close waves-effect waves-light" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                  </button>
+                </div>
+                <!--Body-->
+                <form id="pizza-form">
+                  <div class="form-group">
+                    <label for="size">Type</label>
+                    <select class="form-control" id="type" required>
+                      <option value="">...</option>
+                      <option value="BBQ">BBQ</option>
+                      <option value="periperi">Periperi</option>
+                      <option value="hawaaian">Huwaaan</option>
+                      <option value="margherita">Margherita</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="size">Size</label>
+                    <select class="form-control" id="size" required>
+                      <option value="">...</option>
+                      <option value="large">Large</option>
+                      <option value="medium">Medium</option>
+                      <option value="small">Small</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="topping">Topping</label>
+                    <select class="form-control" id="topping" required>
+                      <option value="">...</option>
+                      <option value="mushroom">Mushroom</option>
+                      <option value="pepperoni">Pepperoni</option>
+                      <option value="sausage">Sausage</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="crust">Crust</label>
+                    <select class="form-control" id="crust" required>
+                      <option value="">...</option>
+                      <option value="thick">Thick</option>
+                      <option value="thin">Thin</option>
+                    </select>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Add</button>
+                </form>
+              </div>
+            </div>
+            <!--/.Content-->
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+    <footer>
+      <div class="footer">
+        <p>
+          <img src="Images/phone call.jpg" style=width:50px>
+          <height:20px +254711583937>
+            <img src="Images/twitter.png" style=width:50px>
+            <height:50px @cwanjugu>
+              <img src="Images/Facebook.jpeg" style=width:50px>
+              <height:20px Karlo Wanj>
+        </p>
+        <p>khutpizza@gmail.com : All Rights Reserved</p>
+      </div>
+    </footer>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
