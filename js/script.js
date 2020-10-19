@@ -1,8 +1,5 @@
+// alert("alert")
 
-    // alert("Hi, we have recevied your message. Thank you for reaching out to us.");
-
-
-    // Material Select Initialization
 $(document).ready(function () {
     $("#table1").hide();
     $("#bill").hide();
